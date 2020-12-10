@@ -13,17 +13,14 @@ if __name__ == "__main__":
     ## Part 1
     diff1jolt, diff3jolt, previousValue = 0, 0, 0
     data.sort()
-    for i,value in enumerate(data):
-        if data[i] > previousValue + 3:
-            previousValue = value
 
-        elif data[i] == previousValue + 1:
+    for value in data:
+        if value == previousValue + 1:
             diff1jolt += 1
-            previousValue = value
         
-        elif data[i] == previousValue + 3:
+        elif value == previousValue + 3:
             diff3jolt += 1
-            previousValue = value
+        previousValue = value
 
     print("Part 1:", diff1jolt * diff3jolt)
 
