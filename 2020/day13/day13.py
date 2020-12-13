@@ -21,9 +21,9 @@ def chinese_remainder(n, a):
     N = reduce((lambda a, b: a*b), n)  # Multiplie tous les ni termes entre eux pour avoir n
     
     for n_i, a_i in zip(n,a):
-        Ni_inv = N / n_i
+        Ni_inv = N // n_i
         somme += a_i * mul_inv(Ni_inv, n_i) * Ni_inv
-    return round(somme % N)
+    return somme % N
 
 def mul_inv(a, b):
     b0 = b
