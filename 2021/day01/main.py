@@ -1,4 +1,3 @@
-
 # Extract data.
 data = []
 with open('input.txt', 'r') as file:
@@ -8,6 +7,7 @@ with open('input.txt', 'r') as file:
 
 # Part 1.
 last, count = data[0], 0
+
 
 for i in range(1, len(data)):
     if data[i] > last:
