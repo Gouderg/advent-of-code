@@ -1,7 +1,7 @@
 
 # Extract data.
 template, data, isOkey = "", {}, True
-with open('input.txt', 'r') as file:
+with open('input2.txt', 'r') as file:
     for row in file:
         if row == "\n":
             isOkey = False
