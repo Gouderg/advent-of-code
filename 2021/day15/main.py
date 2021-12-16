@@ -1,6 +1,5 @@
 import heapq
 
-
 def moves_available(x, y, tab):
     move = []
 
@@ -18,17 +17,17 @@ def Dijkstra(X, Y, tab):
 
 
     while True:
-        # On extraut le plus petit élements.
+        # On extrait le plus petit élément.
         risk, x, y = heapq.heappop(queu)
         
         # Condition de sortie.
         if (x, y) == (X, Y):
             return risk
 
-        # Si un noeud n'est pas visité
+        # Si un noeud n'est pas visité.
         if not(visited[x][y]): 
             visited[x][y] = 1
-            # On parcourt ses voisins et s'ils ne sont pas visité, on les ajoute à la queu.
+            # On parcourt ses voisins et s'ils ne sont pas visité, on les ajoute à la queue.
             for nx, ny in moves_available(x, y, tab):
                 if visited[nx][ny] == 0:
                     heapq.heappush(queu, (risk + tab[nx][ny], nx, ny))
