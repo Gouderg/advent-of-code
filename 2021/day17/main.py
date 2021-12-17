@@ -38,8 +38,8 @@ for x in range(x1, x2+1):
 
 # Part 1.
 moves = []
-for i in range(400, 0, -1):
-    for j in range(400, -400, -1):
+for i in range(x2+1, 0, -1):
+    for j in range(x2+1, -x2+1, -1):
         x, y, vX, vY = 0, 0, i, j
         yMax = 0
         while True:                
