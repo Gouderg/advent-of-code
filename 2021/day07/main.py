@@ -17,7 +17,8 @@ data = []
 with open('input.txt', 'r') as file:
     for row in file:
         data = [int(a) for a in row.replace('\n', '').split(',')]
-        
+
+print(len(data))
 # Part 1.
 print('Part 1:', solve(1))
 
