@@ -27,43 +27,27 @@ def search(l1, l2):
 
     return len(l1) - len(l2)
     
-
 score = 0
 for index, (line1, line2) in enumerate(data):
     if search(eval(line1), eval(line2)) < 0:
         score += index + 1
 
-
-
 print("Part 1:", score)
 
+
 # Part 2.
-data = []
-data2 = []
-with open("input2.txt", "r") as file:
-    for row in file:
-        row = row.replace("\n", "")
-        if row != "":
-            data.append(row)
-            data2.append(row)
+data = [l2 for l1 in data for l2 in l1]
+data.append("[[2]]")
+data.append("[[6]]")
 
-already = []
-print(len(data2))
+        
+n = len(data)
+while n >= 1:
+    nn = 0
+    for i in range(1, n):
+        if search(eval(data[i-1]), eval(data[i])) >= 0:
+            data[i-1], data[i] = data[i], data[i - 1]
+            nn = i
+    n = nn
 
-for i in range(len(data)):
-    for j in range(len(data)):
-        if data[i] == data[j]:
-            continue
-        if search(eval(data[i]), eval(data[j])) < 0:
-            i1 = data2.index(data[i])
-            i2 = data2.index(data[j])
-            print(data[i], data[j])
-            data2 = data2[:i1+1] + data2[i2:] + data2[i1+1:i2]
-            print(len(data2), data2)
-    break
-score = 1
-for i, elt in enumerate(data2):
-    if len(elt) == 5 and elt[0:2] == "[[" and elt[3:5] == "]]":
-        score *= (i+1)
-
-print("Part 2:", score)
+print("Part 2:", (data.index("[[2]]")+1) * (data.index("[[6]]")+1))
