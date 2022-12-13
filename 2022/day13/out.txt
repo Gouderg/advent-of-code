@@ -1,0 +1,1153 @@
+[ [
+[ [
+] [
+Je suis correcte: 1
+
+
+[ [
+[ [
+8 [
+[ [
+8 ]
+Je suis incorrecte: 2
+
+
+[ [
+[ [
+[ 9
+[ [
+] 9
+Je suis correcte: 3
+
+
+[ [
+[ [
+1 4
+Je suis correcte: 4
+
+
+[ [
+[ [
+9 [
+[ [
+9 8
+Je suis incorrecte: 5
+
+
+[ [
+[ [
+6 [
+[ [
+6 7
+Je suis correcte: 6
+
+
+[ [
+[ [
+] ]
+, ,
+[ [
+1 3
+Je suis correcte: 7
+
+
+[ [
+[ [
+] 1
+Je suis correcte: 8
+
+
+[ [
+[ [
+0 0
+, ,
+[ [
+[ ]
+Je suis incorrecte: 9
+
+
+[ [
+[ [
+7 1
+Je suis incorrecte: 10
+
+
+[ [
+[ [
+[ [
+[ 4
+[ [
+] 4
+Je suis correcte: 11
+
+
+[ [
+[ [
+[ [
+[ 9
+[ [
+7 9
+Je suis correcte: 12
+
+
+[ [
+[ [
+] [
+Je suis correcte: 13
+
+
+[ [
+[ [
+[ 1
+[ [
+4 1
+Je suis incorrecte: 14
+
+
+[ [
+[ [
+7 2
+Je suis incorrecte: 15
+
+
+[ [
+[ [
+1 [
+[ [
+1 [
+[ [
+1 9
+Je suis correcte: 16
+
+
+[ [
+[ [
+4 [
+[ [
+4 [
+[ [
+4 5
+Je suis correcte: 17
+
+
+[ [
+[ [
+8 4
+Je suis incorrecte: 18
+
+
+[ [
+[ [
+[ 0
+[ [
+] 0
+Je suis correcte: 19
+
+
+[ [
+[ [
+4 [
+[ [
+4 [
+[ [
+4 7
+Je suis correcte: 20
+
+
+[ [
+[ [
+1 [
+[ [
+1 1
+] ,
+Je suis correcte: 21
+
+
+[ [
+[ [
+[ 3
+[ [
+[ 3
+[ [
+7 3
+Je suis incorrecte: 22
+
+
+[ [
+[ [
+] 1
+Je suis correcte: 23
+
+
+[ [
+[ [
+4 [
+[ [
+4 ]
+Je suis incorrecte: 24
+
+
+[ [
+[ [
+] [
+Je suis correcte: 25
+
+
+[ [
+[ [
+] 1
+Je suis correcte: 26
+
+
+[ [
+[ [
+5 [
+[ [
+5 5
+] ,
+Je suis correcte: 27
+
+
+[ [
+[ [
+[ ]
+Je suis incorrecte: 28
+
+
+[ [
+[ [
+1 2
+Je suis correcte: 29
+
+
+[ [
+[ [
+4 0
+Je suis incorrecte: 30
+
+
+[ [
+[ [
+[ 0
+[ [
+6 0
+Je suis incorrecte: 31
+
+
+[ [
+[ [
+6 [
+[ [
+6 1
+Je suis incorrecte: 32
+
+
+[ [
+[ [
+6 9
+Je suis correcte: 33
+
+
+[ [
+[ [
+] 1
+Je suis correcte: 34
+
+
+[ [
+[ [
+[ [
+[ 9
+[ [
+1 9
+Je suis correcte: 35
+
+
+[ [
+[ [
+4 [
+[ [
+4 [
+[ [
+4 1
+Je suis incorrecte: 36
+
+
+[ [
+8 8
+, ,
+3 3
+, ,
+1 1
+0 0
+, ,
+5 5
+, ]
+Je suis incorrecte: 37
+
+
+[ [
+[ [
+7 4
+Je suis incorrecte: 38
+
+
+[ [
+[ [
+] [
+Je suis correcte: 39
+
+
+[ [
+[ [
+1 [
+[ [
+1 [
+[ [
+1 ]
+Je suis incorrecte: 40
+
+
+[ [
+[ [
+2 4
+Je suis correcte: 41
+
+
+[ [
+[ [
+7 4
+Je suis incorrecte: 42
+
+
+[ [
+[ [
+7 9
+Je suis correcte: 43
+
+
+[ [
+[ [
+0 6
+Je suis correcte: 44
+
+
+[ [
+[ [
+[ ]
+Je suis incorrecte: 45
+
+
+[ [
+[ [
+[ 3
+[ [
+9 3
+Je suis incorrecte: 46
+
+
+[ [
+[ [
+[ ]
+Je suis incorrecte: 47
+
+
+[ [
+[ [
+[ 4
+[ [
+4 4
+, ]
+Je suis incorrecte: 48
+
+
+[ [
+[ [
+5 0
+Je suis incorrecte: 49
+
+
+[ [
+[ [
+] ]
+, ,
+[ [
+[ 1
+[ [
+7 1
+Je suis incorrecte: 50
+
+
+[ [
+[ [
+[ [
+9 1
+Je suis incorrecte: 51
+
+
+[ [
+[ [
+8 [
+[ [
+8 [
+[ [
+8 8
+] ,
+Je suis correcte: 52
+
+
+[ [
+[ [
+] [
+Je suis correcte: 53
+
+
+[ [
+[ [
+[ 1
+[ [
+6 1
+Je suis incorrecte: 54
+
+
+[ [
+[ [
+2 ]
+Je suis incorrecte: 55
+
+
+[ [
+[ [
+1 [
+[ [
+1 3
+Je suis correcte: 56
+
+
+[ [
+[ [
+[ [
+0 2
+Je suis correcte: 57
+
+
+[ [
+[ [
+] ]
+, ,
+[ [
+] ]
+, ,
+[ [
+] [
+Je suis correcte: 58
+
+
+[ [
+[ [
+7 [
+[ [
+7 1
+Je suis incorrecte: 59
+
+
+[ [
+[ [
+7 7
+, ,
+4 1
+Je suis incorrecte: 60
+
+
+[ [
+[ [
+[ [
+2 [
+[ [
+2 7
+Je suis correcte: 61
+
+
+[ [
+[ [
+[ 0
+[ [
+5 0
+Je suis incorrecte: 62
+
+
+[ [
+[ [
+[ 8
+[ [
+1 8
+Je suis correcte: 63
+
+
+[ [
+[ [
+[ 5
+[ [
+[ 5
+[ [
+4 5
+Je suis correcte: 64
+
+
+[ [
+[ [
+[ 1
+[ [
+] 1
+Je suis correcte: 65
+
+
+[ [
+[ ]
+Je suis incorrecte: 66
+
+
+[ [
+[ [
+[ [
+[ 5
+[ [
+0 5
+Je suis correcte: 67
+
+
+[ [
+[ [
+0 3
+Je suis correcte: 68
+
+
+[ [
+[ [
+] ]
+, ,
+[ [
+[ ]
+Je suis incorrecte: 69
+
+
+[ [
+[ [
+[ [
+[ 7
+[ [
+3 7
+Je suis correcte: 70
+
+
+[ [
+[ [
+0 7
+Je suis correcte: 71
+
+
+[ [
+[ [
+1 [
+[ [
+1 0
+Je suis incorrecte: 72
+
+
+[ [
+[ [
+[ 1
+[ [
+5 1
+Je suis incorrecte: 73
+
+
+[ [
+[ [
+[ 8
+[ [
+3 8
+Je suis correcte: 74
+
+
+[ [
+[ [
+[ 8
+[ [
+3 8
+Je suis correcte: 75
+
+
+[ [
+[ [
+6 [
+[ [
+6 [
+[ [
+6 1
+Je suis incorrecte: 76
+
+
+[ [
+[ [
+[ [
+] [
+Je suis correcte: 77
+
+
+[ [
+[ [
+[ [
+0 [
+[ [
+0 ]
+Je suis incorrecte: 78
+
+
+[ [
+[ [
+[ ]
+Je suis incorrecte: 79
+
+
+[ [
+[ [
+[ [
+8 1
+Je suis incorrecte: 80
+
+
+[ [
+[ [
+[ [
+3 [
+[ [
+3 2
+Je suis incorrecte: 81
+
+
+[ [
+[ [
+[ 9
+[ [
+1 9
+Je suis correcte: 82
+
+
+[ [
+[ [
+7 6
+Je suis incorrecte: 83
+
+
+[ [
+[ [
+] [
+Je suis correcte: 84
+
+
+[ [
+[ [
+[ [
+] 5
+Je suis correcte: 85
+
+
+[ [
+[ [
+[ 8
+[ [
+6 8
+Je suis correcte: 86
+
+
+[ [
+[ [
+[ 7
+[ [
+7 7
+, ]
+Je suis incorrecte: 87
+
+
+[ [
+[ [
+[ 7
+[ [
+9 7
+Je suis incorrecte: 88
+
+
+[ [
+[ [
+4 4
+, ]
+Je suis incorrecte: 89
+
+
+[ [
+[ [
+7 4
+Je suis incorrecte: 90
+
+
+[ [
+[ [
+4 ]
+Je suis incorrecte: 91
+
+
+[ [
+[ [
+9 9
+] ,
+Je suis correcte: 92
+
+
+[ [
+[ [
+[ 9
+[ [
+[ 9
+[ [
+0 9
+Je suis correcte: 93
+
+
+[ [
+[ [
+1 1
+0 ,
+] [
+Je suis correcte: 94
+
+
+[ [
+[ [
+] 1
+Je suis correcte: 95
+
+
+[ [
+[ [
+5 5
+, ]
+Je suis incorrecte: 96
+
+
+[ [
+[ [
+2 3
+Je suis correcte: 97
+
+
+[ [
+[ [
+6 0
+Je suis incorrecte: 98
+
+
+[ [
+[ [
+2 [
+[ [
+2 [
+[ [
+2 ]
+Je suis incorrecte: 99
+
+
+[ [
+[ [
+[ 4
+[ [
+[ 4
+[ [
+9 4
+Je suis incorrecte: 100
+
+
+[ [
+[ [
+] 4
+Je suis correcte: 101
+
+
+[ [
+[ [
+[ ]
+Je suis incorrecte: 102
+
+
+[ [
+[ [
+[ [
+7 [
+[ [
+7 2
+Je suis incorrecte: 103
+
+
+[ [
+[ [
+[ [
+[ [
+5 3
+Je suis incorrecte: 104
+
+
+[ [
+[ [
+3 5
+Je suis correcte: 105
+
+
+[ [
+[ [
+[ 4
+[ [
+[ 4
+[ [
+6 4
+Je suis incorrecte: 106
+
+
+[ [
+[ [
+2 ]
+Je suis incorrecte: 107
+
+
+[ [
+[ [
+[ [
+[ 9
+[ [
+3 9
+Je suis correcte: 108
+
+
+[ [
+[ [
+] [
+Je suis correcte: 109
+
+
+[ [
+[ [
+[ 5
+[ [
+9 5
+Je suis incorrecte: 110
+
+
+[ [
+[ [
+3 ]
+Je suis incorrecte: 111
+
+
+[ [
+[ [
+7 [
+[ [
+7 ]
+Je suis incorrecte: 112
+
+
+[ [
+[ [
+2 [
+[ [
+2 8
+Je suis correcte: 113
+
+
+[ [
+[ [
+1 0
+Je suis incorrecte: 114
+
+
+[ [
+[ [
+8 [
+[ [
+8 [
+[ [
+8 3
+Je suis incorrecte: 115
+
+
+[ [
+[ [
+[ 3
+[ [
+[ 3
+[ [
+] 3
+Je suis correcte: 116
+
+
+[ [
+[ [
+[ [
+] [
+Je suis correcte: 117
+
+
+[ [
+[ [
+7 ]
+Je suis incorrecte: 118
+
+
+[ [
+[ [
+5 [
+[ [
+5 [
+[ [
+5 5
+] ,
+Je suis correcte: 119
+
+
+[ [
+[ [
+1 ]
+Je suis incorrecte: 120
+
+
+[ [
+[ [
+[ 4
+[ [
+[ 4
+[ [
+6 4
+Je suis incorrecte: 121
+
+
+[ [
+7 7
+, ,
+1 1
+, ,
+9 9
+, ,
+0 0
+] ,
+Je suis correcte: 122
+
+
+[ [
+[ [
+2 6
+Je suis correcte: 123
+
+
+[ [
+[ [
+[ [
+] [
+Je suis correcte: 124
+
+
+[ [
+[ [
+] ]
+, ,
+[ [
+[ [
+8 1
+Je suis incorrecte: 125
+
+
+[ [
+[ [
+[ [
+2 2
+] ,
+Je suis correcte: 126
+
+
+[ [
+[ [
+8 5
+Je suis incorrecte: 127
+
+
+[ [
+[ [
+[ [
+[ [
+6 3
+Je suis incorrecte: 128
+
+
+[ [
+[ [
+[ [
+[ [
+] 3
+Je suis correcte: 129
+
+
+[ [
+[ [
+[ ]
+Je suis incorrecte: 130
+
+
+[ [
+[ [
+[ [
+[ 6
+[ [
+8 6
+Je suis incorrecte: 131
+
+
+[ [
+[ [
+[ [
+] 3
+Je suis correcte: 132
+
+
+[ [
+[ [
+5 1
+Je suis incorrecte: 133
+
+
+[ [
+[ [
+[ ]
+Je suis incorrecte: 134
+
+
+[ [
+[ [
+4 1
+Je suis incorrecte: 135
+
+
+[ [
+[ [
+1 [
+[ [
+1 1
+] ,
+Je suis correcte: 136
+
+
+[ [
+[ [
+3 3
+, ,
+2 4
+Je suis correcte: 137
+
+
+[ [
+[ [
+1 [
+[ [
+1 [
+[ [
+1 3
+Je suis correcte: 138
+
+
+[ [
+[ [
+[ [
+4 [
+[ [
+4 ]
+Je suis incorrecte: 139
+
+
+[ [
+[ [
+[ 4
+[ [
+1 4
+Je suis correcte: 140
+
+
+[ [
+[ [
+[ [
+] 9
+Je suis correcte: 141
+
+
+[ [
+[ [
+9 [
+[ [
+9 0
+Je suis incorrecte: 142
+
+
+[ [
+[ [
+[ ]
+Je suis incorrecte: 143
+
+
+[ [
+[ [
+[ 2
+[ [
+4 2
+Je suis incorrecte: 144
+
+
+[ [
+[ [
+[ [
+[ [
+4 2
+Je suis incorrecte: 145
+
+
+[ [
+[ [
+2 ]
+Je suis incorrecte: 146
+
+
+[ [
+[ [
+] [
+Je suis correcte: 147
+
+
+[ [
+[ [
+7 [
+[ [
+7 7
+] ,
+Je suis correcte: 148
+
+
+[ [
+[ [
+] 7
+Je suis correcte: 149
+
+
+[ [
+[ [
+[ [
+] 7
+Je suis correcte: 150
+
+
+Part 1: 5326
+Part 2:
