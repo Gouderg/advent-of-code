@@ -7,9 +7,6 @@ with open("input.txt", "r") as file:
         for elt in row[1].split(', '):
             graph[int(row[0])].append(int(elt))
 
-
-# [print(key, ": ", graph[key]) for key in graph]
-
 # Part 1.
 already = []
 queu = [0]
