@@ -21,36 +21,6 @@ with open("input.txt", "r") as file:
         else:
             pages.append([int(a) for a in row.split(",")])
     
-# Part 1.
-cpt = 0
-pages_to_sort = []
-for page in pages:
-    isRight = True
-
-    for i in range(0, len(page)):
-  
-        for elt in page[i+1:]:
-            if page[i] in rules_before and elt not in rules_before[page[i]]:
-                isRight = False
-                break
-        
-        for elt in page[0:i]:
-            if page[i] in rules_after and elt not in rules_after[page[i]]:
-                isRight = False
-                break
-
-    if isRight:
-        cpt += page[len(page)//2]
-    else:
-        pages_to_sort.append(page)
-
-
-print("Part 1:", cpt)
-
-
-# Part 2.
-cpt = 0
-
 def check(p):
     for i in range(0, len(p)):
         for elt in p[i+1:]:
@@ -62,6 +32,21 @@ def check(p):
                 return False
     return True
 
+# Part 1.
+cpt = 0
+pages_to_sort = []
+for page in pages:
+
+    if check(page):
+        cpt += page[len(page)//2]
+    else:
+        pages_to_sort.append(page)
+
+print("Part 1:", cpt)
+
+
+# Part 2.
+cpt = 0
 
 for page in pages_to_sort:
 
