@@ -1,7 +1,7 @@
 # Parse data.
 data = []
 
-with open("input.txt", "r") as file:
+with open("input2.txt", "r") as file:
     for row in file:
         row = list(row.replace("\n", ""))
         data.append(row)
