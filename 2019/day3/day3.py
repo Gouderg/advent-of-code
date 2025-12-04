@@ -1,61 +1,63 @@
-from math import inf
 
-def listInstruction(ligne):
-    instru = []
-    temp = [0,0]
-    for elt in ligne:
-        pas = int(elt[1::]) 
-        for i in range(0, pas):
-            if elt[0] == 'U':
-                temp[1] += 1
+with open("input.txt", "r") as file:
+    left, right = [row.replace("\n", "") for row in file]
 
-            elif elt[0] == 'D':
-                temp[1] -= 1
-            
-            elif elt[0] == 'L':
-               temp[0] -= 1
-            
-            elif elt[0] == 'R':
-                temp[0] += 1
-            
-            instru.append(temp[:])
-    return instru
+# Part 1.
+cpt = 0
+
+left_pair = {}
+k = 0 + 0j
+incr = { "R": 1j, "L": -1j, "U": 1, "D": -1 }
+
+for elt in left.split(","):
+    l, c = elt[0], int(elt[1:])
+    for _ in range(c):
+        k += incr[l]
+        left_pair[k] = 1
+
+k = 0
+best_pair = {}
+for elt in right.split(","):
+    l, c = elt[0], int(elt[1:])
+    for _ in range(c):
+        k += incr[l]
+        if k in left_pair:
+            best_pair[k] = 1
+
+best_pair_sum = [int(abs(k.real)+ abs(k.imag)) for k in best_pair]
+cpt  = min(best_pair_sum)
+
+print("Part 1:", cpt)
 
 
-ligne1, ligne2, intersection = [], [], []
-coord1, coord2 = [0,0], [0,0]
+# Part 2.
+cpt = 0
 
+left_pair = {}
+k = 0 + 0j
+incr = { "R": 1j, "L": -1j, "U": 1, "D": -1 }
+step = 0
+for elt in left.split(","):
+    l, c = elt[0], int(elt[1:])
+    for _ in range(c):
+        step += 1
+        k += incr[l]
+        if k not in left_pair:
+            left_pair[k] = step
 
-with open("input.txt","r") as file:
-    temp = []
-    for row in file:
-        temp.append(row)
-    ligne1 = temp[0].split(',')
-    ligne2 = temp[1].split(',')
+k = 0
+best_pair = {}
+step = 0
+for elt in right.split(","):
+    l, c = elt[0], int(elt[1:])
+    for _ in range(c):
+        k += incr[l]
+        step += 1
+        if k in left_pair:
 
-# ligne1 = ['R75','D30','R83','U83','L12','D49','R71','U7','L72']
-# ligne2 = ['U62','R66','U55','R34','D71','R55','D58','R83']
-# # ligne1 = ['R98','U47','R26','D63','R33','U87','L62','D20','R33','U53','R51']
-# # ligne2 = ['U98','R91','D20','R16','D67','R40','U7','R15','U6','R7']
-instruc1 = listInstruction(ligne1)
-instruc2 = listInstruction(ligne2)
+            best_pair[k] = step + left_pair[k]  
 
-print("Je mouline...")
+best_pair_sum = [v for k, v in best_pair.items()]
+cpt  = min(best_pair_sum)
 
-print(len(instruc1))
-print(len(instruc2))
-
-for indice1 in range(0,len(instruc1)):
-    for indice2 in range(0,len(instruc2)):
-        if instruc1[indice1][:] == instruc2[indice2][:]:
-            intersection.append(instruc1[indice1])
-
-print("Je cherche l'intersection la plus courte")
-
-print(intersection)
-minimum = inf
-for elt in intersection:
-      nb = abs(elt[0]) + abs(elt[1])
-      if nb < minimum:
-          minimum = nb
-print(minimum)
+print("Part 2:", cpt)
